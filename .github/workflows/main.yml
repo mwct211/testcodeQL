@@ -1,8 +1,8 @@
-name: test-CI
+name: testcodeQL
 on: push
 jobs:
   build:
-    name: test-CI
+    name: testcodeQL
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
